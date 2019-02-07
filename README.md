@@ -1,5 +1,6 @@
-"This repository contains to present on load balancers based on Ha-Proxy " 
-=============================
+# Vagrantbox Ha-Proxy
+
+[![Vagrant](https://img.shields.io/badge/vagrant-ha_proxy-orange.svg)]()
 
 
 | Host port | Guest machine | Guest port | Notes
