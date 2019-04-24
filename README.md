@@ -19,7 +19,7 @@
 
 ## How to use?
 
-1. Clone https://bitbucket.org/devops_sysops/ha-proxy
+1. Clone https://github.com/spy86/vagrant-ha-proxy
 2. Open 3 terminal windows, one for each host
 3. Terminal #1, run ``` vagrant up haproxy && vagrant ssh haproxy ```
 4. Terminal #2, run ``` vagrant up web1 && vagrant ssh web1 ```
@@ -36,7 +36,7 @@
 15.  To remove the VM's from your hard drive, run ``` vagrant destroy web1 web2 haproxy ```
 16.  If you wish to remove the cached image file from which these machines were created, run ``` vagrant box remove precise32 ```
 
-#Vagrant file includes
+## Vagrant file includes
 
 * Ha-Proxy
 * 3x Ubuntu server
