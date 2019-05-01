@@ -1,6 +1,6 @@
 # Vagrantbox Ha-Proxy
 
-[![Vagrant](https://img.shields.io/badge/vagrant-ha_proxy-orange.svg)]()
+![Vagrant](https://img.shields.io/badge/vagrant-ha_proxy-orange.svg) ![vagrant-ha-proxy](https://img.shields.io/github/issues/spy86/vagrant-ha-proxy.svg) ![vagrant-ha-proxy](https://img.shields.io/github/forks/spy86/vagrant-ha-proxy.svg) ![vagrant-ha-proxy](https://img.shields.io/github/stars/spy86/vagrant-ha-proxy.svg) ![vagrant-ha-proxy](https://img.shields.io/github/license/spy86/vagrant-ha-proxy.svg) ![vagrant-ha-proxy](https://img.shields.io/twitter/url/https/github.com/spy86/vagrant-ha-proxy.svg?style=social)
 
 
 | Host port | Guest machine | Guest port | Notes
