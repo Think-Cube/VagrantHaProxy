@@ -2,6 +2,7 @@
 
 This repository hosts a Vagrant setup for HAProxy and Apache web servers. It enables easy deployment of a high availability proxy along with two Apache servers for load balancing. Detailed usage instructions are provided, facilitating setup, configuration changes, and management of the virtual environment.
 
+
 | Host port | Guest machine | Guest port | Notes
 ------------|---------------|------------|---
 | 8080 | haproxy | 8080 | HAProxy Admin Interface
