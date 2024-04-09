@@ -1,7 +1,6 @@
-# Vagrantbox Ha-Proxy
+# Vagrant HaProxy
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
+This repository hosts a Vagrant setup for HAProxy and Apache web servers. It enables easy deployment of a high availability proxy along with two Apache servers for load balancing. Detailed usage instructions are provided, facilitating setup, configuration changes, and management of the virtual environment.
 
 | Host port | Guest machine | Guest port | Notes
 ------------|---------------|------------|---
@@ -13,13 +12,16 @@
 
 
 ## Prerequisites
-* Vagrant - https://releases.hashicorp.com/vagrant/2.2.4/vagrant_2.2.4_x86_64.msi
-* Virtualbox - http://download.virtualbox.org/virtualbox/6.0.4/VirtualBox-6.0.4-128413-Win.exe
+
+Before you begin, make sure you have the following installed on your machine:
+
+- [Vagrant](https://www.vagrantup.com/)
+- [VirtualBox](https://www.virtualbox.org/)
 * Vagrant Reload Provisioner - open powershell console and run "vagrant plugin install vagrant-reload"
 
 ## How to use?
 
-1. Clone https://github.com/spy86/vagrant-ha-proxy
+1. Clone https://github.com/Think-Cube/VagrantHaProxy.git
 2. Open 3 terminal windows, one for each host
 3. Terminal #1, run ``` vagrant up haproxy && vagrant ssh haproxy ```
 4. Terminal #2, run ``` vagrant up web1 && vagrant ssh web1 ```
